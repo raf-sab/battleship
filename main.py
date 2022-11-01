@@ -34,7 +34,7 @@ class Dot:
 
 class Ship:
     def __init__(self, d, ln, d_):
-        self.dot = d  # стартовая точка коробля
+        self.dot = d  # стартовая точка корабля
         self.length = ln  # длина коробля
         self.direction = d_  # 0 - горизонтальное положение, 1 - вертикальное
         self.life = ln  # количество жизней равно длине корабля
